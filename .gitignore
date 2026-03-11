@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 *.dll
+!ManusBridge.dll
 
 # Distribution / packaging
 .Python
@@ -153,8 +154,8 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Manus SDK DLLs (too large for git, obtain separately)
-ManusBridge.dll
+# Manus SDK DLLs
+# ManusBridge.dll is included in repo
 ManusSDK.dll
 
 # Local configuration (may contain sensitive IPs/paths)
